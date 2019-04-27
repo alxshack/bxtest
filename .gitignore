@@ -1,0 +1,54 @@
+
+## Bitrix core
+#-------------------------
+/bitrix
+
+## Packages
+#-------------------------
+node_modules
+composer.phar
+/vendor
+
+## Environment override
+#-------------------------
+.env
+
+## Local files
+#-------------------------
+/upload
+/logs
+
+## Host files
+#-------------------------
+sitemap*.xml
+.httpauth
+.htsecure
+.access.php
+.htaccess
+web.config
+
+## Trash
+#-------------------------
+desktop.ini
+.DS_Store
+.DS_Store?
+.Trashes
+
+# IDE Files
+#-------------------------
+/nbproject
+/.idea
+
+## Sublime Text cache files
+#-------------------------
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+## Webhooks
+#-------------------------
+.hooks
+gitlab-webhook-push.php
+composer.lock
